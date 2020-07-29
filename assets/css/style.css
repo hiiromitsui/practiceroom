@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height:50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 29, 11);
+    align-items: center; 
+    padding: 14px 40px;
+}
+.nav {
+        display: flex;
+}
+
+.nav > li > a {
+        color: rgb(86, 199, 214);
+        font-size: 20px;
+        margin-left: 20px;
+       
+    }
+.welcome{
+    background-image: url("../img/金沢駅.jpeg"); 
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+
+   
+}
+
+.title{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#kennroku, #higasi {
+    width: 100%;
+}
+#kennroku>h2, #higasi>h2{
+    font-size: 40px;
+    text-align: center;
+    color:rgb(86, 199, 214);
+    padding-top: 40px;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.description {
+    width: 50%;
+}
+
+.contents > img {
+    height: 150px;
+    margin: 0 20px; 
+}
+
+footer{
+    background-color: rgb(29, 29, 11);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 100px;
+    color: #fff;
+
+}
+
